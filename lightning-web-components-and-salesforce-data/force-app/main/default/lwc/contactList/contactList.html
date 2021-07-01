@@ -7,6 +7,10 @@
                 columns={columns}>
 
             </lightning-datatable>
+
+        </template>
+        <template if:true={errors}>
+            <p>{errors}</p>
         </template>
     </lightning-card>
 </template>
